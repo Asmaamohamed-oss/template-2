@@ -1,0 +1,99 @@
+/*4-about-section*/
+
+.about{
+    padding: 30px 0;
+}
+.about-items{
+    display: flex;
+}
+
+.about-img{
+    flex: 1;
+    height:  340px;
+    text-align: center;
+    margin-right:20px ;
+    cursor: pointer;
+    position: relative;
+}
+
+.about-img .img2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    z-index: 1;
+    width: 70px;
+    height: 70px;
+}
+
+.about-img img{
+    width: 100%;
+    height: 340px;
+
+}
+ 
+.about-desc{
+    flex: 2;
+    height: 340px;
+     background-color: #f7f3ef;
+     padding: 30px 20px;
+     position: relative;
+}
+.about-top{
+    position: relative;
+    margin-bottom: 65px;
+    padding-left: 50px;
+}
+
+.about-top .date{
+    position: absolute;
+    color: var(--maincolor);
+    
+}
+
+.about-top .date-1{
+    top: -18px; 
+    left: 0;
+    font-size: 50px;
+}
+.about-top .date-2{
+    top: 45px;
+    left: 0;
+    bottom: 0;
+}
+
+.about-top h3{
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.about-top + p{
+    line-height: 1.9;
+    font-size: 13px;
+    color: gray;
+}
+.about-list{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.about-list ul li{
+    width: 50px;
+    height: 2px;
+    background-color: var(--maincolor);
+    margin: 5px;
+    display: inline-block;
+}
+
+
+
+
+.about-photos{
+    display: flex;
+    padding: 60px 0;
+}
+
+.about-photo{
+    flex: 1;
+}
